@@ -1,3 +1,113 @@
 body {
-    font-family: arial;
+    background-color: rgb(244, 244, 244);
+    color: rgb(41, 41, 41);
+}
+.container {
+    font: 16px/24px arial;
+    width: 960px;
+    margin: auto;
+    background-color: #fff;
+}
+.header{
+    padding: 20px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: 20px;
+}
+.header a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: salmon;
+    padding: 5px;
+}
+
+.header a:hover {
+    background-color: lightblue;
+    color: #fff;
+}
+
+.hero {
+    height: 360px;
+    background-image: url(assets/lYq64H.jpg);
+    background-size: cover;
+    background-position: 0 -0px;
+}
+
+.main {
+    padding: 20px;
+    width: 600px;
+    box-sizing: border-box;
+    float: left;
+    border: 1px solid black;
+}
+
+.main h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.main .penulis {
+    font-size: 11px;
+    margin-top: -5px;
+}
+.main a {
+    text-decoration: none;
+    color: salmon;
+}
+.main p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+/* sidebar*/
+.sidebar {
+    width: 300px;
+    float: right;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid black;
+    
+}
+
+.sidebar h3 {
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.sidebar img {
+    width: 60px;
+    float: left;
+    padding-right: 10px;
+}
+.sidebar p {
+    font: 12px/18px arial;
+}
+.footer {
+    background-color: rgb(71, 71, 71);
+    padding: 10px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}
+/* ini clear fix */
+.cf:before,
+.cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
 }
